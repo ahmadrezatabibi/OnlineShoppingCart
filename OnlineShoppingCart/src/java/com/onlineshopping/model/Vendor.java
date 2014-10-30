@@ -6,10 +6,14 @@
 
 package com.onlineshopping.model;
 
+import javax.persistence.Entity;
+
+
 /**
  *
  * @author pmkrish6
  */
+@Entity
 public class Vendor extends User{
-    
-}
+ 
+    }

@@ -6,10 +6,16 @@
 
 package com.onlineshopping.model;
 
+import java.util.Collection;
+import javax.persistence.Entity;
+import javax.persistence.OneToMany;
+
 /**
  *
  * @author pmkrish6
  */
+@Entity
 public class Customer extends User{
-    
+   @OneToMany(mappedBy ="Customer")
+   private Collection<CreditCard> creditcard; 
 }
