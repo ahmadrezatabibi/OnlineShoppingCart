@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 /**
  *
  * @author pmkrish6
+ * comment added
  */
 @Entity
 public class Admin extends User {
